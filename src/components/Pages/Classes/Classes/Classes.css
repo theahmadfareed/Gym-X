@@ -1,0 +1,30 @@
+.class_card{
+    margin-bottom: 70px;
+    height: 350px;
+}
+.class-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.class_card::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(6,6,6,0) 50%, rgba(0,0,0,1) 100%);
+}
+.class_btn{
+    width: 90%;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 1;
+}

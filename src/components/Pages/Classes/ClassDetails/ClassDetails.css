@@ -1,0 +1,30 @@
+.class-detail{
+    margin-bottom: 60px;
+}
+.class-detail p{
+    line-height: 30px;
+    color: #333;
+    margin-top: 30px;
+}
+.form-check-input:checked{
+    background: #FCD842;
+    border-color: #FCD842;
+}
+.class-time{
+    box-shadow: 0px 0px 5px 0px rgba(110, 110, 110, 0.4);
+    padding: 10px 25px;
+    margin-bottom: 25px;
+}
+.class-time h5{
+    font-weight: 500;
+}
+.class-time small{
+    font-weight: 500;
+}
+.class-btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

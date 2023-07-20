@@ -1,0 +1,67 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img{
+  vertical-align: middle;
+}
+.brand-btn{
+  border: none;
+  padding: 10px 15px;
+  background: #FCD842;
+  color: #000;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+.f-os{
+  font-family: 'Oswald', sans-serif;
+}
+.f-ro{
+  font-family: 'Roboto', sans-serif;
+}
+.c-gray{
+  color: #F2F2F3;
+}
+.brand-c{
+  color: #FCD842;
+}
+.brand-bg{
+  background: #171426;
+}
+.breadcrumbs-bg{
+  height: 70vh;
+  background: url('./Image_Icon/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.breadcrumbs-bg h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 65px;
+  
+}
+.breadcrumbs-bg::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 20, 38, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

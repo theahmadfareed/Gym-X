@@ -1,0 +1,28 @@
+.nav-content{
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo{
+    font-size: 32px !important;
+    color: #fff;
+}
+.logo span{
+    color: rgb(230, 25, 25);
+    font-weight: bold;
+    
+}
+.nav-link{
+    padding: 0 !important;
+    margin-left: 30px;
+    color: #fff !important;
+}
+.nav-link.active{
+    color: #FCD842 !important;
+}
